@@ -19,6 +19,6 @@ def greet_user(fname, name):
     return "<h1>Hello word, %s</h1>" % (name, fname)
 
 
-@app.route("/square/<int:num/>")
+@app.route("/square/<int:num>")
 def square_num(num):
     return "<h1>%s squared is: %s</h1>" % (num, num*num)
